@@ -43,11 +43,11 @@ TP1DPBO2526C2/
 
 | Atribut | Tipe | Deskripsi |
 |---------|------|-----------|
-| `id` | int | ID unik film |
+| `id` | int | ID film |
 | `nama` | string | Nama film |
 | `durasi` | int | Durasi film (menit) |
 | `rating` | float | Rating film (1-10) |
-| `gambar` | string | Path file gambar poster |
+| `gambar` | string | File gambar poster |
 
 ---
 
