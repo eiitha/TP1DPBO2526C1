@@ -34,8 +34,8 @@ TP1DPBO2526C2/
 | Fitur | Deskripsi |
 |-------|-----------|
 | Tambah Data | Menambahkan data film baru (ID, nama, durasi, rating, gambar) |
-| Lihat Data | Menampilkan semua data film dalam format card |
-| Edit Data | Mengubah data film yang sudah ada |
+| Lihat Data | Menampilkan semua data film |
+| Edit Data | Mengedit data film yang sudah ada |
 | Hapus Data | Menghapus data film dari daftar |
 | Cari Data | Mencari film berdasarkan ID |
 
