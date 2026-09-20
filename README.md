@@ -69,7 +69,7 @@ TP1DPBO2526C1/
 ---
 
 ## Dokumenatasi Java
-```
+
 ### Menambahkan Data
 <img width="408" height="323" alt="Insert" src="https://github.com/user-attachments/assets/eaf8b052-c0d4-4eef-8602-be56d360ac03" />
 
@@ -111,7 +111,6 @@ TP1DPBO2526C1/
 ### Mencari Data
 <img width="434" height="394" alt="Search" src="https://github.com/user-attachments/assets/8cec0746-f2fc-4274-8c69-518bea2cfa7d" />
 
----
 
 ## Dokumentasi Web PHP
 
