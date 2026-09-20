@@ -1,7 +1,7 @@
 # TP1 DPBO 2025/2026 C1
 
 ## Janji
-Saya Muhammad Jillena Surbakti dengan NIM 2501485 mengerjakan Tugas Praktikum 1 pada Mata Kuliah Desain dan Pemrograman Berorientasi Objek (DPBO) untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
+Saya Jillena Surbakti dengan NIM 2501485 mengerjakan Tugas Praktikum 1 pada Mata Kuliah Desain dan Pemrograman Berorientasi Objek (DPBO) untuk keberkahan-Nya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin
 
 ## Struktur Folder
 
