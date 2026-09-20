@@ -164,9 +164,3 @@ python Main.py
 ### Menghapus Data
 <img width="1600" height="900" alt="delete" src="https://github.com/user-attachments/assets/bd6ecfb3-6261-41f6-85e4-b38bc7bae18a" />
 
-### Error Handling
-<img src="./Dokumentasi/php/error1.png" width= 700><br>
-<img src="./Dokumentasi/php/error2.png" width= 700><br>
-<img src="./Dokumentasi/php/error3.png" width= 700><br>
-<img src="./Dokumentasi/php/error4.png" width= 700><br>
-<img src="./Dokumentasi/php/error5.png" width= 700><br>
