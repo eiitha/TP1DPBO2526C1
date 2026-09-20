@@ -48,7 +48,6 @@ TP1DPBO2526C1/
 ---
 
 ## Dokumentasi C++
-```
 ### Menambahkan Data
 <img width="423" height="357" alt="Insert" src="https://github.com/user-attachments/assets/29e42c83-b7be-4a1b-bda4-9b8c162e58df" />
 
