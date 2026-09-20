@@ -46,6 +46,7 @@ TP1DPBO2526C2/
 | `id` | int | ID film |
 | `nama` | string | Nama film |
 | `durasi` | int | Durasi film (menit) |
+| `genre` | string | Genre Film |
 | `rating` | float | Rating film (1-10) |
 | `gambar` | string | File gambar poster |
 
