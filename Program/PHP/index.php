@@ -1,9 +1,7 @@
 <?php
-// WAJIB: Load class sebelum session_start()
 require_once "Film.php";
 session_start();
 
-// Proteksi & pembersihan session dari incomplete object
 if (isset($_SESSION['daftar_film'])) {
     foreach ($_SESSION['daftar_film'] as $key => $film) {
         if ($film instanceof __PHP_Incomplete_Class) {
@@ -15,7 +13,6 @@ if (isset($_SESSION['daftar_film'])) {
     $_SESSION['daftar_film'] = [];
 }
 
-// Logika Hapus Data
 if (isset($_GET['aksi']) && $_GET['aksi'] === 'hapus' && isset($_GET['id'])) {
     $idHapus = $_GET['id'];
     foreach ($_SESSION['daftar_film'] as $key => $film) {
@@ -38,7 +35,6 @@ if (isset($_GET['aksi']) && $_GET['aksi'] === 'hapus' && isset($_GET['id'])) {
     exit;
 }
 
-// Logika Edit Data
 $editMode = false;
 $filmEdit = null;
 if (isset($_GET['aksi']) && $_GET['aksi'] === 'edit' && isset($_GET['id'])) {
@@ -52,7 +48,6 @@ if (isset($_GET['aksi']) && $_GET['aksi'] === 'edit' && isset($_GET['id'])) {
     }
 }
 
-// Logika Simpan (Tambah / Update)
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $id = $_POST['id'];
     $judul = $_POST['judul'];
@@ -111,7 +106,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit;
 }
 
-// Logika Cari Data
+// Cari Data
 $keyword = $_GET['cari'] ?? '';
 $hasilTampil = $_SESSION['daftar_film'];
 
