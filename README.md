@@ -6,8 +6,8 @@ Saya Jillena Surbakti dengan NIM 2501485 mengerjakan Tugas Praktikum 1 pada Mata
 ## Struktur Folder
 
 ```
-TP1DPBO2526C2/
-├── Readme.md
+TP1DPBO2526C1/
+├── README.md
 ├── CPP/
 │   ├── Film.cpp
 │   └── main.cpp
@@ -27,19 +27,14 @@ TP1DPBO2526C2/
 
 ---
 
-## Penjelasan Fitur
-
 ### Fitur Utama
+1. Tambah Data: Menambahkan data film baru (ID, nama, durasi, rating, gambar)
+2. Lihat Data: Menampilkan semua data film 
+3. Edit Data: Mengedit data film yang sudah ada 
+4. Hapus Data: Menghapus data film dari daftar 
+5. Cari Data: Mencari film berdasarkan ID 
 
-| Fitur | Deskripsi |
-|-------|-----------|
-| Tambah Data | Menambahkan data film baru (ID, nama, durasi, rating, gambar) |
-| Lihat Data | Menampilkan semua data film |
-| Edit Data | Mengedit data film yang sudah ada |
-| Hapus Data | Menghapus data film dari daftar |
-| Cari Data | Mencari film berdasarkan ID |
-
-### Class Film
+### atribut kelas film
 
 | Atribut | Tipe | Deskripsi |
 |---------|------|-----------|
@@ -53,14 +48,6 @@ TP1DPBO2526C2/
 ---
 
 ## Dokumentasi C++
-### Compile dan Run
-```bash
-# Compile
-cd CPP/
-g++ Main.cpp -o Main
-
-# Run
-./Main
 ```
 ### Menambahkan Data
 <img width="423" height="357" alt="Insert" src="https://github.com/user-attachments/assets/29e42c83-b7be-4a1b-bda4-9b8c162e58df" />
@@ -83,14 +70,6 @@ g++ Main.cpp -o Main
 ---
 
 ## Dokumenatasi Java
-### Compile dan Run
-```bash
-# Compile
-cd Java/
-javac Main.java
-
-# Run
-java Main
 ```
 ### Menambahkan Data
 <img width="408" height="323" alt="Insert" src="https://github.com/user-attachments/assets/eaf8b052-c0d4-4eef-8602-be56d360ac03" />
@@ -113,12 +92,6 @@ java Main
 ---
 
 ## Dokumentasi Python
-### Compile dan Run
-```bash
-# Run
-cd Python/
-python Main.py
-```
 
 ### Menambahkan Data
 <img width="490" height="356" alt="Insert" src="https://github.com/user-attachments/assets/14444d1c-becf-4c10-858e-f63c56e13561" />
@@ -142,18 +115,6 @@ python Main.py
 ---
 
 ## Dokumentasi Web PHP
-
-### Cara Menjalankan
-
-1. Buka folder 'PHP/'
-    ```bash
-    cd PHP/
-    ```
-3. Jalankan perintah:
-   ```bash
-   php -S localhost:8000
-   ```
-3. Buka browser dan akses `http://localhost:8000/Main.php`
 
 ### Menambahkan Data
 <img width="1600" height="900" alt="insert" src="https://github.com/user-attachments/assets/030b2072-06ba-4432-b38b-3e464d797315" />
